@@ -1,0 +1,66 @@
+<!--Button 1-->
+<button class="custom-button">
+  <a class="button-link" href="https://saratoffice.blogspot.com/p/1955.html">The EC Act, 1955</a>
+</button>
+
+<!--Button 2-->
+<button class="custom-button">
+  <a class="button-link" href="https://saratoffice.blogspot.com/p/1934.html">Petroleum Act, 1934</a>
+</button>
+
+<!--Button 3-->
+<button class="custom-button">
+  <a class="button-link" href="https://saratoffice.blogspot.com/p/2002.html">Petroleum Rules, 2002</a>
+</button>
+<!--Button 4-->
+<button class="custom-button">
+  <a class="button-link" href="https://saratoffice.blogspot.com/p/1979.html">HSD License, 1979</a>
+</button>
+
+<!--Button 5-->
+<button class="custom-button">
+  <a class="button-link" href="https://saratoffice.blogspot.com/p/gunny.html">Gunny Specification</a>
+</button>
+
+<!--Button 6-->
+<button class="custom-button">
+  <a class="button-link" href="https://saratoffice.blogspot.com/p/astm-d1250.html">ASTM D 1250</a>
+</button>
+<style>
+  /* Default button styles */
+  .custom-button {
+    background-color: #101535;
+    border-radius: 8px;
+    border: 1px solid rgb(16, 21, 53);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 15px auto;
+    padding: 16px 1px;
+    text-align: center;
+    width: 30%;
+    transition: all 0.3s ease;
+  }
+
+  /* Link styling */
+  .custom-button .button-link {
+    color: white;
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  /* Hover effect for the button */
+  .custom-button:hover {
+    background-color: #3f4a72; /* Lighter color on hover */
+    border-color: #3f4a72; /* Change border color */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Stronger shadow */
+  }
+
+  /* Hover effect for the link inside the button */
+  .custom-button .button-link:hover {
+    color: #00ff87; /* Change text color on hover */
+  }
+</style>
